@@ -7,6 +7,15 @@
 </head>
 <body>
     <h1>Hello World</h1>
-    <?php echo("Hello World in PHP") ?>
+    <?php
+    $value = 10;
+    $rand = rand(0,100);
+
+    $name= $_GET['name'] ;
+    $age = $_GET['age'];
+
+    echo "<b> Valor guardado: $value </b> <br> <b> Valor aleatorio: $rand</b>
+    <br> <b> Nome: $name </b> <br> <b> Idade: $age </b>";  ; 
+    ?>
 </body>
 </html>
